@@ -32,3 +32,27 @@ const myFunction = function(){
     console.log("whsts up")
 }
 
+
+
+//*****************************************/
+
+//stack(Primitive) , Heap (Non-Primitive)
+
+let myname="sarb"
+let yourName=myname
+yourName = "abd"
+
+console.log(myname)
+console.log(yourName)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "abc@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
